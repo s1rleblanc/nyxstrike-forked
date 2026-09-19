@@ -1,3 +1,14 @@
+# NyxStrike — macOS Compatibility Fork
+
+> [!IMPORTANT]
+> **This is an independent macOS-focused fork of [NyxStrike](https://github.com/CommonHuman-Lab/nyxstrike), the original project by CommonHuman-Lab.**
+>
+> The purpose of this fork is to help the original project run reliably on macOS, including Intel Macs, while keeping its existing workflow. Compatibility fixes are being proposed upstream. This is not the official repository; credit for NyxStrike and its original design belongs to the upstream authors and contributors.
+>
+> **macOS support is still being tested.** Some tools need Linux or a newer macOS release. A complete installation on Intel/macOS 12 has not yet been verified.
+
+---
+
 <div align="center">
 <img src="assets/nyxstrike-logo.png" alt="NyxStrike" width="220"/>
 
@@ -20,8 +31,8 @@ NyxStrike connects LLM agents to real offensive security tools and executes full
 > Get a full offensive security environment running in minutes.
 
 ```bash
-git clone https://github.com/CommonHuman-Lab/nyxstrike.git
-cd nyxstrike
+git clone https://github.com/s1rleblanc/nyxstrike-forked.git
+cd nyxstrike-forked
 
 ./nyxstrike.sh -a               # Setup + start server
 ./nyxstrike.sh -a -t            # + install external tools
